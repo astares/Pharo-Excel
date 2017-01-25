@@ -7,4 +7,6 @@ testPrecisionLossOnEquality
 	numberWith16DigitsAnd7AtTheEnd := 1234567890123457 asExcelNumber.
 	
 	"Although different they will be equal in Excel precision"
-	self assert: numberWith16DigitsAnd6AtTheEnd value = numberWith16DigitsAnd7AtTheEnd value
+	self 
+		assert: numberWith16DigitsAnd6AtTheEnd value = numberWith16DigitsAnd7AtTheEnd value;
+		assert: numberWith16DigitsAnd6AtTheEnd = numberWith16DigitsAnd7AtTheEnd

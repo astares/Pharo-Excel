@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "TorstenBergmann 1/25/2017 14:34",
-	"super" : "Object",
+	"super" : "Number",
 	"category" : "Excel-Core-Numbers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
