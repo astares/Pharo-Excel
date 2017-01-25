@@ -1,0 +1,1 @@
+A number representing limited Excel precision in Pharo

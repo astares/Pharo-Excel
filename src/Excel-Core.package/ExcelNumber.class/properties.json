@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "TorstenBergmann 1/25/2017 14:34",
+	"super" : "Object",
+	"category" : "Excel-Core-Numbers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MAX_DIGITS"
+	],
+	"instvars" : [
+		"storedValue",
+		"numberOfDigits"
+	],
+	"name" : "ExcelNumber",
+	"type" : "normal"
+}
