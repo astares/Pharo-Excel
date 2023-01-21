@@ -7,7 +7,7 @@ Install
 
 ```Smalltalk
 Metacello new 
-	repository: 'github://astares/Pharo-Excel/repository';
+	repository: 'github://astares/Pharo-Excel/src';
 	baseline: 'Excel';
 	load 	
 ```	
