@@ -1,3 +1,4 @@
 converting
 asFloat
-	^self storedValue asFloat
+
+	^ self storedValue asFloat

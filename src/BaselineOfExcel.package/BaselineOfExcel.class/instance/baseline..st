@@ -1,11 +1,17 @@
-baseline
+baselines
 baseline: spec
 	<baseline>
 
 	spec for: #common do: [
-		 
-		spec 
+		"Packages"
+		spec
 			package: 'Excel-Core';
 			package: 'Excel-Tests-Core' with: [ spec requires: #('Excel-Core') ].
-		spec 
-			group: 'default' with: #('Excel-Core' 'Excel-Tests-Core'). ].		
+
+		"Groups"
+		spec
+				group: 'Core' with: #('Excel-Core');
+				group: 'Tests' with: #('Excel-Tests-Core');
+				group: 'CI' with: #('Tests');
+				group: 'all' with: #('Core' 'Tests');
+				group: 'default' with: #('all') ]

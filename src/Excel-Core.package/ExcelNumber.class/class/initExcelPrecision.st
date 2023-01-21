@@ -1,4 +1,4 @@
 private - initialization
 initExcelPrecision
 
-	MAX_DIGITS := 15.
+	MAX_DIGITS := 15

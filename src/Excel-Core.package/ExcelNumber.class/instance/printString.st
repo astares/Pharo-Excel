@@ -1,3 +1,4 @@
 printing
 printString
-	^self printStringLimitedTo: 50000
+
+	^ self printStringLimitedTo: 50000

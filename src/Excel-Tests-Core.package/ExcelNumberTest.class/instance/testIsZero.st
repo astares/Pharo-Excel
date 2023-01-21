@@ -1,6 +1,6 @@
 tests - zero
 testIsZero
 
-	self 
+	self
 		assert: 0 asExcelNumber isZero;
-		deny: 42 asExcelNumber isZero.
+		deny: 42 asExcelNumber isZero

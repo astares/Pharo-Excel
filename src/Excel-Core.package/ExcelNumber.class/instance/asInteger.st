@@ -1,3 +1,4 @@
-conversion
+converting
 asInteger
-	^self storedValue asInteger 
+
+	^ self storedValue asInteger

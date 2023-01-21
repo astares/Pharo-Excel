@@ -1,3 +1,4 @@
 testing
 isZero
-	^storedValue = 0
+
+	^ storedValue = 0

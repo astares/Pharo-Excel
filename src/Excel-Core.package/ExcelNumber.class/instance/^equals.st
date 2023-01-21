@@ -1,4 +1,4 @@
-comparision
+comparing
 = anotherObject
 
-	^self value = anotherObject value
+	^ self value = anotherObject value

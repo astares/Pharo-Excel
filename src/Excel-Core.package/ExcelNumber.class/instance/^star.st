@@ -1,3 +1,3 @@
 arithmetic
-* aNumber 
-	^(self asInteger * aNumber) asExcelNumber 
+* aNumber
+	^(self asInteger * aNumber) asExcelNumber

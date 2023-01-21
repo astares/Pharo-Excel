@@ -1,3 +1,4 @@
 accessing
-storedValue: aNumber 
+storedValue: aNumber
+
 	storedValue := self coerce: aNumber

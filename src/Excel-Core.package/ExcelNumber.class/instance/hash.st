@@ -1,4 +1,4 @@
-comparision
+comparing
 hash
 
 	^self value hash

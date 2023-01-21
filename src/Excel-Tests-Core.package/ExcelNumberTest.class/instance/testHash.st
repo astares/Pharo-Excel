@@ -1,4 +1,4 @@
 tests - basic
 testHash
 
-	self assert: 42 asExcelNumber hash == 42 asExcelNumber hash
+	self assert: 42 asExcelNumber hash identicalTo: 42 asExcelNumber hash

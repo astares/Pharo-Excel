@@ -1,4 +1,4 @@
 accessing
-storedValue 
-	
-	^storedValue
+storedValue
+
+	^ storedValue

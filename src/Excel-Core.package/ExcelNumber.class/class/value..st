@@ -1,5 +1,6 @@
 instance creation
 value: aNumber
-	^(self new)
-		storedValue: aNumber;
-		yourself
+
+	^ self new
+		  storedValue: aNumber;
+		  yourself
