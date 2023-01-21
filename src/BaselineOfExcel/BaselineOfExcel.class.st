@@ -1,5 +1,14 @@
-baselines
-baseline: spec
+"
+Baseline for Pharo-Excel
+"
+Class {
+	#name : #BaselineOfExcel,
+	#superclass : #BaselineOf,
+	#category : 'BaselineOfExcel'
+}
+
+{ #category : #baselines }
+BaselineOfExcel >> baseline: spec [
 	<baseline>
 
 	spec for: #common do: [
@@ -15,3 +24,4 @@ baseline: spec
 				group: 'CI' with: #('Tests');
 				group: 'all' with: #('Core' 'Tests');
 				group: 'default' with: #('all') ]
+]
