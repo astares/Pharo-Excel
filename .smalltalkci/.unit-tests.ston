@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'Pomodoro',
+      #baseline : 'Excel',
       #directory : '../src',
       #load : [ 'CI' ],
       #platforms : [  #pharo ]
